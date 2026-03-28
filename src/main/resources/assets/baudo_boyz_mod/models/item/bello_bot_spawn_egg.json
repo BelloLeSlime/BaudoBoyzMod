@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "baudo_boyz_mod:item/bellobot_spawn_egg"
+  }
+}
