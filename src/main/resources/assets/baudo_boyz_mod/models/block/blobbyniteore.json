@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "baudo_boyz_mod:block/rtjs_ore",
+    "up": "baudo_boyz_mod:block/rtjs_ore",
+    "north": "baudo_boyz_mod:block/rtjs_ore",
+    "east": "baudo_boyz_mod:block/rtjs_ore",
+    "south": "baudo_boyz_mod:block/rtjs_ore",
+    "west": "baudo_boyz_mod:block/rtjs_ore",
+    "particle": "baudo_boyz_mod:block/rtjs_ore"
+  },
+  "render_type": "solid"
+}

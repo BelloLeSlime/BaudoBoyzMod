@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "baudo_boyz_mod:blobby_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "baudo_boyz_mod:blobby_armor"
+      }
+    ]
+  }
+}

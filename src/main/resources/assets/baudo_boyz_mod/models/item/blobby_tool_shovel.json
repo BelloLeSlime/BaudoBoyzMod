@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "baudo_boyz_mod:item/blobby_tool_shovel"
+  }
+}

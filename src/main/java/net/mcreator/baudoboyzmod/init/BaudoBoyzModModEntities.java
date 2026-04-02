@@ -18,7 +18,10 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.baudoboyzmod.entity.LarryEntity;
+import net.mcreator.baudoboyzmod.entity.ClemEntity;
+import net.mcreator.baudoboyzmod.entity.BoomboneprojectileEntity;
 import net.mcreator.baudoboyzmod.entity.BlobbyEntity;
+import net.mcreator.baudoboyzmod.entity.BelloBotEntity;
 import net.mcreator.baudoboyzmod.BaudoBoyzModMod;
 
 @EventBusSubscriber
@@ -36,6 +39,12 @@ public class BaudoBoyzModModEntities {
 			EntityType.Builder.<BelloBotEntity>of(BelloBotEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<BoomboneprojectileEntity>> BOOMBONEPROJECTILE = register("boomboneprojectile",
+			EntityType.Builder.<BoomboneprojectileEntity>of(BoomboneprojectileEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<ClemEntity>> CLEM = register("clem",
+			EntityType.Builder.<ClemEntity>of(ClemEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -48,6 +57,7 @@ public class BaudoBoyzModModEntities {
 		BlobbyEntity.init(event);
 		LarryEntity.init(event);
 		BelloBotEntity.init(event);
+		ClemEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -55,5 +65,6 @@ public class BaudoBoyzModModEntities {
 		event.put(BLOBBY.get(), BlobbyEntity.createAttributes().build());
 		event.put(LARRY.get(), LarryEntity.createAttributes().build());
 		event.put(BELLO_BOT.get(), BelloBotEntity.createAttributes().build());
+		event.put(CLEM.get(), ClemEntity.createAttributes().build());
 	}
 }

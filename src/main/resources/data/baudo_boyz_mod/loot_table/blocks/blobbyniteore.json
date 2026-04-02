@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "baudo_boyz_mod:blocks/blobbyniteore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "baudo_boyz_mod:blobbynite"
+        }
+      ]
+    }
+  ]
+}

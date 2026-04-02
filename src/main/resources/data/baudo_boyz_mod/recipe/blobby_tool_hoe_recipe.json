@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": "baudo_boyz_mod:blobbynite",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "baudo_boyz_mod:blobby_tool_hoe",
+    "count": 1
+  }
+}

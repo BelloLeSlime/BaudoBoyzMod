@@ -23,6 +23,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.baudoboyzmod.init.BaudoBoyzModModTabs;
 import net.mcreator.baudoboyzmod.init.BaudoBoyzModModItems;
 import net.mcreator.baudoboyzmod.init.BaudoBoyzModModEntities;
+import net.mcreator.baudoboyzmod.init.BaudoBoyzModModBlocks;
 
 import javax.annotation.Nullable;
 
@@ -47,6 +48,7 @@ public class BaudoBoyzModMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		BaudoBoyzModModBlocks.REGISTRY.register(modEventBus);
 		BaudoBoyzModModItems.REGISTRY.register(modEventBus);
 		BaudoBoyzModModEntities.REGISTRY.register(modEventBus);
 		BaudoBoyzModModTabs.REGISTRY.register(modEventBus);

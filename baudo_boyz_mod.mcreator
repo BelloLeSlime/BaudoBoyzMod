@@ -8,11 +8,11 @@
       "registry_name": "blobby",
       "metadata": {
         "files": [
-          "src/main/resources/assets/baudo_boyz_mod/models/item/blobby_spawn_egg.json",
           "src/main/resources/assets/baudo_boyz_mod/items/blobby_spawn_egg.json",
-          "src/main/java/net/mcreator/baudoboyzmod/entity/BlobbyEntity.java",
           "src/main/java/net/mcreator/baudoboyzmod/client/renderer/BlobbyRenderer.java",
-          "src/main/resources/data/baudo_boyz_mod/neoforge/biome_modifier/blobby_biome_modifier.json"
+          "src/main/resources/assets/baudo_boyz_mod/models/item/blobby_spawn_egg.json",
+          "src/main/resources/data/baudo_boyz_mod/neoforge/biome_modifier/blobby_biome_modifier.json",
+          "src/main/java/net/mcreator/baudoboyzmod/entity/BlobbyEntity.java"
         ]
       },
       "path": "~/Blobby"
@@ -26,11 +26,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/baudoboyzmod/item/BlobbyniteItem.java",
-          "src/main/resources/assets/baudo_boyz_mod/items/blobbynite.json",
-          "src/main/resources/assets/baudo_boyz_mod/models/item/blobbynite.json"
+          "src/main/resources/assets/baudo_boyz_mod/models/item/blobbynite.json",
+          "src/main/resources/assets/baudo_boyz_mod/items/blobbynite.json"
         ]
       },
-      "path": "~/Blobby"
+      "path": "~/Blobby/Blobby_ore"
     },
     {
       "name": "Larry",
@@ -41,10 +41,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/baudoboyzmod/client/renderer/LarryRenderer.java",
-          "src/main/resources/data/baudo_boyz_mod/neoforge/biome_modifier/larry_biome_modifier.json",
-          "src/main/resources/assets/baudo_boyz_mod/models/item/larry_spawn_egg.json",
           "src/main/java/net/mcreator/baudoboyzmod/entity/LarryEntity.java",
-          "src/main/resources/assets/baudo_boyz_mod/items/larry_spawn_egg.json"
+          "src/main/resources/assets/baudo_boyz_mod/models/item/larry_spawn_egg.json",
+          "src/main/resources/assets/baudo_boyz_mod/items/larry_spawn_egg.json",
+          "src/main/resources/data/baudo_boyz_mod/neoforge/biome_modifier/larry_biome_modifier.json"
         ]
       },
       "path": "~/Larry"
@@ -78,18 +78,535 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/baudoboyzmod/entity/BelloBotEntity.java",
-          "src/main/resources/assets/baudo_boyz_mod/models/item/bello_bot_spawn_egg.json",
-          "src/main/resources/assets/baudo_boyz_mod/items/bello_bot_spawn_egg.json",
           "src/main/resources/data/baudo_boyz_mod/neoforge/biome_modifier/bello_bot_biome_modifier.json",
+          "src/main/resources/assets/baudo_boyz_mod/items/bello_bot_spawn_egg.json",
+          "src/main/resources/assets/baudo_boyz_mod/models/item/bello_bot_spawn_egg.json",
           "src/main/java/net/mcreator/baudoboyzmod/client/renderer/BelloBotRenderer.java"
         ]
       },
       "path": "~/BelloBot"
+    },
+    {
+      "name": "Blobby_toolPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby_tool_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/baudo_boyz_mod/models/item/blobby_tool_pickaxe.json",
+          "src/main/resources/assets/baudo_boyz_mod/items/blobby_tool_pickaxe.json",
+          "src/main/java/net/mcreator/baudoboyzmod/item/Blobby_toolPickaxeItem.java"
+        ]
+      },
+      "path": "~/Blobby/Armor_item_ect/Tool"
+    },
+    {
+      "name": "Blobby_toolAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby_tool_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/baudo_boyz_mod/models/item/blobby_tool_axe.json",
+          "src/main/resources/assets/baudo_boyz_mod/items/blobby_tool_axe.json",
+          "src/main/java/net/mcreator/baudoboyzmod/item/Blobby_toolAxeItem.java"
+        ]
+      },
+      "path": "~/Blobby/Armor_item_ect/Tool"
+    },
+    {
+      "name": "Blobby_toolSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby_tool_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/baudoboyzmod/item/Blobby_toolSwordItem.java",
+          "src/main/resources/assets/baudo_boyz_mod/items/blobby_tool_sword.json",
+          "src/main/resources/assets/baudo_boyz_mod/models/item/blobby_tool_sword.json"
+        ]
+      },
+      "path": "~/Blobby/Armor_item_ect/Tool"
+    },
+    {
+      "name": "Blobby_toolShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby_tool_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/baudo_boyz_mod/items/blobby_tool_shovel.json",
+          "src/main/java/net/mcreator/baudoboyzmod/item/Blobby_toolShovelItem.java",
+          "src/main/resources/assets/baudo_boyz_mod/models/item/blobby_tool_shovel.json"
+        ]
+      },
+      "path": "~/Blobby/Armor_item_ect/Tool"
+    },
+    {
+      "name": "Blobby_toolHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby_tool_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/baudo_boyz_mod/models/item/blobby_tool_hoe.json",
+          "src/main/java/net/mcreator/baudoboyzmod/item/Blobby_toolHoeItem.java",
+          "src/main/resources/assets/baudo_boyz_mod/items/blobby_tool_hoe.json"
+        ]
+      },
+      "path": "~/Blobby/Armor_item_ect/Tool"
+    },
+    {
+      "name": "Blobby_toolPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby_tool_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/baudo_boyz_mod/advancement/recipes/blobby_tool_pickaxe_recipe.json",
+          "src/main/resources/data/baudo_boyz_mod/recipe/blobby_tool_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Blobby/Armor_item_ect/Tool"
+    },
+    {
+      "name": "Blobby_toolAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby_tool_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/baudo_boyz_mod/advancement/recipes/blobby_tool_axe_recipe.json",
+          "src/main/resources/data/baudo_boyz_mod/recipe/blobby_tool_axe_recipe.json"
+        ]
+      },
+      "path": "~/Blobby/Armor_item_ect/Tool"
+    },
+    {
+      "name": "Blobby_toolSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby_tool_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/baudo_boyz_mod/advancement/recipes/blobby_tool_sword_recipe.json",
+          "src/main/resources/data/baudo_boyz_mod/recipe/blobby_tool_sword_recipe.json"
+        ]
+      },
+      "path": "~/Blobby/Armor_item_ect/Tool"
+    },
+    {
+      "name": "Blobby_toolShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby_tool_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/baudo_boyz_mod/recipe/blobby_tool_shovel_recipe.json",
+          "src/main/resources/data/baudo_boyz_mod/advancement/recipes/blobby_tool_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Blobby/Armor_item_ect/Tool"
+    },
+    {
+      "name": "Blobby_toolHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby_tool_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/baudo_boyz_mod/advancement/recipes/blobby_tool_hoe_recipe.json",
+          "src/main/resources/data/baudo_boyz_mod/recipe/blobby_tool_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Blobby/Armor_item_ect/Tool"
+    },
+    {
+      "name": "Blobby_armorArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/baudo_boyz_mod/items/blobby_armor_leggings.json",
+          "src/main/java/net/mcreator/baudoboyzmod/item/Blobby_armorArmorItem.java",
+          "src/main/resources/assets/baudo_boyz_mod/models/item/blobby_armor_chestplate.json",
+          "src/main/resources/assets/baudo_boyz_mod/models/item/blobby_armor_leggings.json",
+          "src/main/resources/assets/baudo_boyz_mod/items/blobby_armor_boots.json",
+          "src/main/resources/assets/baudo_boyz_mod/equipment/blobby_armor.json",
+          "src/main/java/net/mcreator/baudoboyzmod/client/renderer/item/Blobby_armorArmorArmor.java",
+          "src/main/resources/assets/baudo_boyz_mod/models/item/blobby_armor_helmet.json",
+          "src/main/resources/assets/baudo_boyz_mod/models/item/blobby_armor_boots.json",
+          "src/main/resources/assets/baudo_boyz_mod/items/blobby_armor_chestplate.json",
+          "src/main/resources/assets/baudo_boyz_mod/items/blobby_armor_helmet.json"
+        ]
+      },
+      "path": "~/Blobby/Armor_item_ect/Armor"
+    },
+    {
+      "name": "Blobby_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/baudo_boyz_mod/recipe/blobby_armor_armor_helmet_recipe.json",
+          "src/main/resources/data/baudo_boyz_mod/advancement/recipes/blobby_armor_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Blobby/Armor_item_ect/Armor"
+    },
+    {
+      "name": "Blobby_armorArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby_armor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/baudo_boyz_mod/advancement/recipes/blobby_armor_armor_chestplate_recipe.json",
+          "src/main/resources/data/baudo_boyz_mod/recipe/blobby_armor_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Blobby/Armor_item_ect/Armor"
+    },
+    {
+      "name": "Blobby_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/baudo_boyz_mod/recipe/blobby_armor_armor_leggings_recipe.json",
+          "src/main/resources/data/baudo_boyz_mod/advancement/recipes/blobby_armor_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Blobby/Armor_item_ect/Armor"
+    },
+    {
+      "name": "Blobby_armorArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/baudo_boyz_mod/advancement/recipes/blobby_armor_armor_boots_recipe.json",
+          "src/main/resources/data/baudo_boyz_mod/recipe/blobby_armor_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Blobby/Armor_item_ect/Armor"
+    },
+    {
+      "name": "Baudoboyz",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baudoboyz",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Blobbyniteore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobbyniteore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/baudo_boyz_mod/items/blobbyniteore.json",
+          "src/main/resources/data/baudo_boyz_mod/neoforge/biome_modifier/blobbyniteore_biome_modifier.json",
+          "src/main/resources/assets/baudo_boyz_mod/models/item/blobbyniteore.json",
+          "src/main/resources/data/baudo_boyz_mod/loot_table/blocks/blobbyniteore.json",
+          "src/main/resources/data/baudo_boyz_mod/worldgen/placed_feature/blobbyniteore.json",
+          "src/main/resources/assets/baudo_boyz_mod/models/block/blobbyniteore.json",
+          "src/main/java/net/mcreator/baudoboyzmod/block/BlobbyniteoreBlock.java",
+          "src/main/resources/assets/baudo_boyz_mod/blockstates/blobbyniteore.json",
+          "src/main/resources/data/baudo_boyz_mod/worldgen/configured_feature/blobbyniteore.json"
+        ]
+      },
+      "path": "~/Blobby/Blobby_ore"
+    },
+    {
+      "name": "Boombone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boombone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/baudoboyzmod/item/BoomboneItem.java",
+          "src/main/resources/assets/baudo_boyz_mod/models/item/boombone.json",
+          "src/main/resources/assets/baudo_boyz_mod/items/boombone.json"
+        ]
+      },
+      "path": "~/OuGA_boUgA"
+    },
+    {
+      "name": "Steakaboom",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steakaboom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/baudoboyzmod/item/SteakaboomItem.java",
+          "src/main/resources/assets/baudo_boyz_mod/items/steakaboom.json",
+          "src/main/resources/assets/baudo_boyz_mod/models/item/steakaboom.json"
+        ]
+      },
+      "path": "~/OuGA_boUgA"
+    },
+    {
+      "name": "BoombonePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boombone_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/baudoboyzmod/procedures/BoombonePlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/OuGA_boUgA"
+    },
+    {
+      "name": "BoomboneprojectileProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boomboneprojectile_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/baudoboyzmod/procedures/BoomboneprojectileProjectileHitsBlockProcedure.java"
+        ]
+      },
+      "path": "~/OuGA_boUgA"
+    },
+    {
+      "name": "BoomboneprojectileProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boomboneprojectile_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/baudoboyzmod/procedures/BoomboneprojectileProjectileHitsLivingEntityProcedure.java"
+        ]
+      },
+      "path": "~/OuGA_boUgA"
+    },
+    {
+      "name": "Boomboneprojectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boomboneprojectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/baudoboyzmod/entity/BoomboneprojectileEntity.java"
+        ]
+      },
+      "path": "~/OuGA_boUgA"
+    },
+    {
+      "name": "BoomboneRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boombone_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/baudoboyzmod/procedures/BoomboneRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/OuGA_boUgA"
+    },
+    {
+      "name": "Clem",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/baudoboyzmod/entity/ClemEntity.java",
+          "src/main/java/net/mcreator/baudoboyzmod/client/renderer/ClemRenderer.java",
+          "src/main/resources/assets/baudo_boyz_mod/items/clem_spawn_egg.json",
+          "src/main/resources/assets/baudo_boyz_mod/models/item/clem_spawn_egg.json",
+          "src/main/resources/data/baudo_boyz_mod/neoforge/biome_modifier/clem_biome_modifier.json"
+        ]
+      },
+      "path": "~/Clem"
+    },
+    {
+      "name": "Clemsword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clemsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/baudo_boyz_mod/items/clemsword.json",
+          "src/main/resources/assets/baudo_boyz_mod/models/item/clemsword.json",
+          "src/main/java/net/mcreator/baudoboyzmod/item/ClemswordItem.java"
+        ]
+      },
+      "path": "~/Clem"
+    },
+    {
+      "name": "ClemswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clemsword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/baudoboyzmod/procedures/ClemswordLivingEntityIsHitWithToolProcedure.java"
+        ]
+      },
+      "path": "~/Clem"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Blobby_toolPickaxe"
+    ],
+    "ITEMS:baudo_boyz_mod:blobby_tool_pickaxe_repair_items": [
+      "~CUSTOM:Blobbynite"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Blobby_toolAxe"
+    ],
+    "ITEMS:baudo_boyz_mod:blobby_tool_axe_repair_items": [
+      "~CUSTOM:Blobbynite"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Clemsword",
+      "~CUSTOM:Blobby_toolSword"
+    ],
+    "ITEMS:baudo_boyz_mod:blobby_tool_sword_repair_items": [
+      "~CUSTOM:Blobbynite"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:Blobby_toolShovel"
+    ],
+    "ITEMS:baudo_boyz_mod:blobby_tool_shovel_repair_items": [
+      "~CUSTOM:Blobbynite"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:Blobby_toolHoe"
+    ],
+    "ITEMS:baudo_boyz_mod:blobby_tool_hoe_repair_items": [
+      "~CUSTOM:Blobbynite"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:Blobby_armorArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:Blobby_armorArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:Blobby_armorArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:Blobby_armorArmor.boots"
+    ],
+    "ITEMS:baudo_boyz_mod:blobby_armor_repair_items": [
+      "~CUSTOM:Blobbynite"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Blobbyniteore"
+    ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:Steakaboom"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Boombone"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
@@ -99,19 +616,36 @@
       "item.baudo_boyz_mod.larry_spawn_egg": "Larry Spawn Egg",
       "entity.baudo_boyz_mod.larry": "Larry",
       "item.baudo_boyz_mod.bello_bot_spawn_egg": "Bello Bot Spawn Egg",
-      "entity.baudo_boyz_mod.bello_bot": "Bello Bot"
+      "entity.baudo_boyz_mod.bello_bot": "Bello Bot",
+      "item.baudo_boyz_mod.blobby_tool_pickaxe": "Blobby_tool Pickaxe",
+      "item.baudo_boyz_mod.blobby_tool_axe": "Blobby_tool Axe",
+      "item.baudo_boyz_mod.blobby_tool_sword": "Blobby_tool Sword",
+      "item.baudo_boyz_mod.blobby_tool_shovel": "Blobby_tool Shovel",
+      "item.baudo_boyz_mod.blobby_tool_hoe": "Blobby_tool Hoe",
+      "item_group.baudo_boyz_mod.baudoboyz": "Baudo boyz",
+      "item.baudo_boyz_mod.blobby_armor_helmet": "Blobby_armor Helmet",
+      "item.baudo_boyz_mod.blobby_armor_boots": "Blobby_armor Boots",
+      "item.baudo_boyz_mod.blobby_armor_chestplate": "Blobby_armor Chestplate",
+      "item.baudo_boyz_mod.blobby_armor_leggings": "Blobby_armor Leggings",
+      "item.baudo_boyz_mod.blobbyniteore": "Blobbyniteore",
+      "item.baudo_boyz_mod.boombone": "Boom bone",
+      "item.baudo_boyz_mod.steakaboom": "Steakaboom",
+      "item.baudo_boyz_mod.clem_spawn_egg": "Clem Spawn Egg",
+      "entity.baudo_boyz_mod.clem": "Clem",
+      "item.baudo_boyz_mod.clemsword": "Clem sword"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/baudoboyzmod/init/BaudoBoyzModModBlocks.java",
       "src/main/java/net/mcreator/baudoboyzmod/init/BaudoBoyzModModItems.java",
-      "src/main/java/net/mcreator/baudoboyzmod/init/BaudoBoyzModModEntityRenderers.java",
       "src/main/java/net/mcreator/baudoboyzmod/init/BaudoBoyzModModEntities.java",
+      "src/main/java/net/mcreator/baudoboyzmod/init/BaudoBoyzModModEntityRenderers.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/baudoboyzmod/BaudoBoyzModMod.java",
       "src/main/java/net/mcreator/baudoboyzmod/init/BaudoBoyzModModModels.java",
-      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/baudoboyzmod/init/BaudoBoyzModModTabs.java",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
@@ -119,7 +653,25 @@
     "children": [
       {
         "name": "Blobby",
-        "children": []
+        "children": [
+          {
+            "name": "Armor_item_ect",
+            "children": [
+              {
+                "name": "Tool",
+                "children": []
+              },
+              {
+                "name": "Armor",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Blobby_ore",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Larry",
@@ -131,6 +683,14 @@
       },
       {
         "name": "Baudo",
+        "children": []
+      },
+      {
+        "name": "OuGA_boUgA",
+        "children": []
+      },
+      {
+        "name": "Clem",
         "children": []
       }
     ]

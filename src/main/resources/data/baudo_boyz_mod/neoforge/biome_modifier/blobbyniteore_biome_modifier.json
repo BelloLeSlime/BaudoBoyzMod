@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "baudo_boyz_mod:blobbyniteore",
+  "step": "underground_ores"
+}
